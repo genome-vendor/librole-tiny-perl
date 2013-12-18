@@ -1,0 +1,17 @@
+Source: librole-tiny-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 7)
+Build-Depends-Indep: perl, libtest-simple-perl (>= 0.96),
+  libtest-fatal-perl (>= 0.003)
+Maintainer: Nathaniel Nutter <nnutter@genome.wustl.edu>
+Standards-Version: 3.8.3
+Homepage: http://search.cpan.org/dist/Role-Tiny/
+
+Package: librole-tiny-perl
+Architecture: all
+Depends: ${perl:Depends}, ${misc:Depends}
+Description: Roles. Like a nouvelle cuisine portion size slice of Moose.
+ Role::Tiny is a minimalist role composition tool.
+ .
+ This description was automagically extracted from the module by dh-make-perl.
